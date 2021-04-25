@@ -6,11 +6,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      hasher: true
+      hasher: "true"
   template:
     metadata:
       labels:
-        hasher: true
+        hasher: "true"
     spec:
       containers:
         -
