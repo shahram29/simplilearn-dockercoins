@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      redis: true
+      redis: "true"
   template:
     metadata:
       labels:
-        redis: true
+        redis: "true"
     spec:
       containers:
         -
